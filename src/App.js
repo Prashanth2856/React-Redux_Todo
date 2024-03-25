@@ -1,13 +1,12 @@
-
-import './App.css';
-import { TodoInput } from './Components/TodoInput';
-import { TodoList } from './Components/TodoList';
+import "./App.css";
+import { TodoInput } from "./Components/TodoInput";
+import { TodoList } from "./Components/TodoList";
 
 function App() {
   return (
     <div className="App">
-      <TodoInput/>
-      <TodoList/>
+      <TodoInput />
+      <TodoList />
     </div>
   );
 }
